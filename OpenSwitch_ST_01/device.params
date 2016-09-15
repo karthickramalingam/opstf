@@ -1,0 +1,21 @@
+DEVICE_ID, HOST_IP, PORT_NUMBER, USER_NAME, PASSWORD,DEVICETYPE
+FAB05,localhost,11022,root, ,OPS
+FAB06,localhost,12022,root, ,OPS
+FAB07,localhost,13022,root, ,OPS
+FAB08,localhost,14022,root, ,OPS
+CSW01,localhost,21022,root, ,OPS
+CSW02,localhost,22022,root, ,OPS
+CSW03,localhost,23022,root, ,OPS
+CSW04,localhost,24022,root, ,OPS
+CSW05,localhost,25022,root, ,OPS
+CSW06,localhost,26022,root, ,OPS
+CSW07,localhost,27022,root, ,OPS
+CSW08,localhost,28022,root, ,OPS
+ASW01,localhost,31022,root, ,OPS
+ASW02,localhost,32022,root, ,OPS
+ASW03,localhost,33022,root, ,OPS
+ASW04,localhost,34022,root, ,OPS
+HOST1,localhost,41022,root,screencost,Linux
+HOST2,localhost,42022,root,screencost,Linux
+
+

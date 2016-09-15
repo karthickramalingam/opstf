@@ -1,0 +1,91 @@
+<TestCase>
+<Device>
+<Device1>FAB05</Device1>
+<Device2>FAB06</Device2>
+<Device3>FAB07</Device3>
+<Device4>FAB08</Device4>
+<Device5>CSW01</Device5>
+<Device6>CSW02</Device6>
+<Device7>CSW03</Device7>
+<Device8>CSW04</Device8>
+<Device9>CSW05</Device9>
+<Device10>CSW06</Device10>
+<Device11>CSW07</Device11>
+<Device12>CSW08</Device12>
+<Device13>ASW01</Device13>
+<Device14>ASW02</Device14>
+<Device15>ASW03</Device15>
+<Device16>ASW04</Device16>
+</Device>
+<Testcase1>
+	<fabs>
+        
+		Device2
+		Device3
+		Device4
+	</fabs>
+	<leaves>
+		Device13
+		Device14
+		Device15
+		Device16
+	</leaves>
+</Testcase1>
+<Testcase2>
+		<state>Established</state>
+</Testcase2>
+<Testcase5>
+	<FAB05>
+[['fab05:2','csw01:1'],['fab05:3','csw02:1'],['fab05:4','csw03:1'],['fab05:5','csw04:1'],['fab05:6','csw05:1'],['fab05:7','csw06:1'],['fab05:8','csw07:1'],['fab05:9','csw08:1']]
+	</FAB05>
+	<FAB06>
+[['fab06:2','csw01:2'],['fab06:3','csw02:2'],['fab06:4','csw03:2'],['fab06:5','csw04:2'],['fab06:6','csw05:2'],['fab06:7','csw06:2'],['fab06:8','csw07:2'],['fab06:9','csw08:2']]							
+	</FAB06>
+	<FAB07>
+[['fab07:2','csw01:3'],['fab07:3','csw02:3'],['fab07:4','csw03:3'],['fab07:5','csw04:3'],['fab07:6','csw05:3'],['fab07:7','csw06:3'],['fab07:8','csw07:3'],['fab07:9','csw08:3']]
+	</FAB07>
+	<FAB08>
+[['fab08:2','csw01:4'],['fab08:3','csw02:4'],['fab08:4','csw03:4'],['fab08:5','csw04:4'],['fab08:6','csw05:4'],['fab08:7','csw06:4'],['fab08:8','csw07:4'],['fab08:9','csw08:4']]				
+	</FAB08>
+	<CSW01>
+[['csw01:1','fab05:2'],['csw01:2','fab06:2'],['csw01:3','fab07:2'],['csw01:4','fab08:2'],['csw01:5','asw01:2'],['csw01:6','asw02:2']]			
+	</CSW01>
+	<CSW02>
+[['csw02:1','fab05:3'],['csw02:2','fab06:3'],['csw02:3','fab07:3'],['csw02:4','fab08:3'],['csw02:5','asw01:3'],['csw02:6','asw02:3']]  
+	</CSW02>
+	<CSW03>
+[['csw03:1','fab05:4'],['csw03:2','fab06:4'],['csw03:3','fab07:4'],['csw03:4','fab08:4'],['csw03:5','asw01:4'],['csw03:6','asw02:4']]
+	</CSW03>
+	<CSW04>
+[['csw04:1','fab05:5'],['csw04:2','fab06:5'],['csw04:3','fab07:5'],['csw04:4','fab08:5'],['csw04:5','asw01:5'],['csw04:6','asw02:5']]
+	</CSW04>
+	<CSW05>
+[['csw05:1','fab05:6'],['csw05:2','fab06:6'],['csw05:3','fab07:6'],['csw05:4','fab08:6'],['csw05:5','asw03:2'],['csw05:6','asw04:2']]
+	</CSW05>
+	<CSW06>
+[['csw06:1','fab05:7'],['csw06:2','fab06:7'],['csw06:3','fab07:7'],['csw06:4','fab08:7'],['csw06:5','asw03:3'],['csw06:6','asw04:3']]
+	</CSW06>
+	<CSW07>
+[['csw07:1','fab05:8'],['csw07:2','fab06:8'],['csw07:3','fab07:8'],['csw07:4','fab08:8'],['csw07:5','asw03:4'],['csw07:6','asw04:4']]
+</CSW07>
+	<CSW08>
+[['csw08:1','fab05:9'],['csw08:2','fab06:9'],['csw08:3','fab07:9'],['csw08:4','fab08:9'],['csw08:5','asw03:5'],['csw08:6','asw04:5']]
+	</CSW08>
+	<ASW01>
+[['asw01:2','csw01:5'],['asw01:3','csw02:5'],['asw01:4','csw03:5'],['asw01:5','csw04:5']]
+	</ASW01>
+	<ASW02>
+[['asw02:2','csw01:6'],['asw02:3','csw02:6'],['asw02:4','csw03:6'],['asw02:5','csw04:6']]
+	</ASW02>
+	<ASW03>
+[['asw03:2','csw05:5'],['asw03:3','csw06:5'],['asw03:4','csw07:5'],['asw03:5','csw08:5']]
+	</ASW03>
+	<ASW04>
+[['asw04:2','csw05:6'],['asw04:3','csw06:6'],['asw04:4','csw07:6'],['asw04:5','csw08:6']]
+</ASW04>
+</Testcase5>
+</TestCase>       
+
+
+
+

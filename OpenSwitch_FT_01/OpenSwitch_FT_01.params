@@ -1,0 +1,42 @@
+<TestCase>
+	<Device>
+        	<device1>FAB05</device1>
+		<device2>CSW01</device2>
+        	<device3>ASW01</device3>
+        	<device4>CSW02</device4>
+        	<device5>FAB06</device5>
+	</Device>
+        <ping>
+		<destIP>10.0.20.0</destIP>
+	</ping>
+	<private>
+                <asnumFAB>64700</asnumFAB>
+ 		<loop>1.1.1.1</loop>
+		<asnum1>64850</asnum1>
+		<IP>10.0.4.0</IP>
+	</private>
+        <LogNeighbor>
+		<asnum>64850</asnum>
+      		<NextHopIP>10.0.20.2</NextHopIP>
+	</LogNeighbor>
+        <routemap>
+  		<AS_Path>AS-PREP in</AS_Path>
+		<localpreference>LOCAL_PREFERENCE in</localpreference>
+        </routemap>
+
+	<Neighbors>
+        	<ngh1>10.0.20.33</ngh1>
+		<ngh2>10.0.20.35</ngh2>
+		<ngh3>10.0.20.37</ngh3>
+		<ngh4>10.0.20.39 </ngh4>
+		<ngh5>10.0.20.41</ngh5>
+	</Neighbors>
+        <loopback>1.1.1.1</loopback>
+          <community>
+		<neighborIP>10.0.20.1</neighborIP>
+		<routemapname>COMMUNITY</routemapname>
+                <traffic>out</traffic>
+                <bgp>router bgp 64700</bgp>
+        </community>
+</TestCase>
+

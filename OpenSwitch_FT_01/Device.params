@@ -1,0 +1,6 @@
+DEVICE_ID, HOST_IP, PORT_NUMBER, USER_NAME, PASSWORD
+FAB05,localhost,11022,root, ,OPS
+CSW01,localhost,21022,root, ,OPS
+ASW01,localhost,31022,root, ,OPS
+CSW02,localhost,22022,root, ,OPS
+FAB06,localhost,12022,root, ,OPS
